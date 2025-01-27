@@ -1,9 +1,9 @@
 <section id="contact" class="section bg-white">
     <div class="container">
-      <h2 class="text-4xl text-primary font-bold text-center mb-12" @fadeInUp>Get in Touch</h2>
+      <h2 class="text-4xl text-primary font-bold text-center mb-12">Get in Touch</h2>
       <div class="max-w-2xl mx-auto">
         <form (ngSubmit)="onSubmit()" class="space-y-6">
-          <div @fadeInUp>
+          <div>
             <input
               type="text"
               id="name"
@@ -15,7 +15,7 @@
             >
           </div>
           
-          <div @fadeInUp>
+          <div>
             <input
               type="email"
               id="email"
@@ -27,7 +27,7 @@
             >
           </div>
           
-          <div @fadeInUp>
+          <div>
             <textarea
               id="message"
               name="message"
@@ -39,7 +39,7 @@
             ></textarea>
           </div>
           
-          <div class="text-center" @fadeInUp>
+          <div class="text-center">
             <button type="submit" class="btn-primary transform transition-all duration-300 hover:scale-110">
               Send Message
             </button>
